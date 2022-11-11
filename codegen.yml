@@ -1,0 +1,7 @@
+overwrite: true
+schema: "https://gumipo-next-graphql.hasura.app/v1/graphql"
+documents: "queries/**/*.ts"
+generates:
+  types/generated/graphql/:
+    preset: "client"
+    plugins: []
